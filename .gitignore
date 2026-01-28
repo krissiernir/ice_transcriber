@@ -22,3 +22,5 @@ venv_stable/
 
 *_TRANSCRIPT*.txttest_output.txt
 safe_test_output.txt
+direct_transcription.txt
+test_output.txt
