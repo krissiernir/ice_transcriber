@@ -19,4 +19,6 @@ venv_stable/
 *.m4a
 audio_chapter*/
 venv_stable/
-*_TRANSCRIPT*.txt
+
+*_TRANSCRIPT*.txttest_output.txt
+safe_test_output.txt
