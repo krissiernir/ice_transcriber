@@ -1,12 +1,21 @@
-# ignore everything
-*
+# macOS
+.DS_Store
 
-# allow folders so we can unignore files inside them
-!*/
+# Python
+__pycache__/
+*.pyc
 
-# always track these
-!.gitignore
-!*.py
-!README.md
-!requirements.txt
-!pyproject.toml
+# Virtual envs
+venv/
+.venv/
+venv_stable/
+
+# VS Code (optional)
+.vscode/
+
+# Inputs/outputs
+*.mp3
+*.wav
+*.m4a
+audio_chapter*/
+*_TRANSCRIPT*.txt
