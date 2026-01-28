@@ -1,16 +1,12 @@
-# Ignore everything
+# ignore everything
 *
 
-# But allow these folders (so Git can see allowed files inside them)
+# allow folders so we can unignore files inside them
 !*/
 
-# Allow gitignore itself
+# always track these
 !.gitignore
-
-# Allow Python source
 !*.py
-
-# (Optional) allow docs/config you may want
 !README.md
 !requirements.txt
 !pyproject.toml
