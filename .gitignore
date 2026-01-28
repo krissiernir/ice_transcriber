@@ -18,4 +18,5 @@ venv_stable/
 *.wav
 *.m4a
 audio_chapter*/
+venv_stable/
 *_TRANSCRIPT*.txt
