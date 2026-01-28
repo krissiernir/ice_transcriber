@@ -20,6 +20,8 @@ venv_stable/
 audio_chapter*/
 venv_stable/
 
+
+
 *_TRANSCRIPT*.txttest_output.txt
 safe_test_output.txt
 direct_transcription.txt
