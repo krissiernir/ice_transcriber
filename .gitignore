@@ -1,41 +1,28 @@
-# macOS
+# macOS / editor
 .DS_Store
+.vscode/
 
 # Python
 __pycache__/
 *.pyc
 
-# Virtual envs
+# Virtual environments
 venv/
 .venv/
 venv_stable/
 
-# VS Code (optional)
-.vscode/
-
-# Inputs/outputs
+# Audio inputs
 *.mp3
 *.wav
 *.m4a
-audio_chapter*/
-venv_stable/
 
-printf "\n# Local/dev junk\n.DS_Store\n.vscode/\nvenv/\nvenv_stable/\n# Data/audio outputs\n*.mp3\naudio_chapter/\naudio_chapter_full/\naudio_chapters/\n" >> .gitignore
-git add .gitignore
-git commit -m "Ignore local env and audio folders"
-
-
-
-*_TRANSCRIPT*.txttest_output.txt
-safe_test_output.txt
-direct_transcription.txt
-test_output.txt
-# mac / editor
-.DS_Store
-.vscode/
-
-# audio + generated outputs
-*.mp3
+# Project folders (generated)
 audio_chapter/
 audio_chapter_full/
 audio_chapters/
+
+# Generated outputs
+*_TRANSCRIPT*.txt
+test_output.txt
+safe_test_output.txt
+direct_transcription.txt
