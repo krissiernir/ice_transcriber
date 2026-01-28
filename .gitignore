@@ -30,3 +30,12 @@ git commit -m "Ignore local env and audio folders"
 safe_test_output.txt
 direct_transcription.txt
 test_output.txt
+# mac / editor
+.DS_Store
+.vscode/
+
+# audio + generated outputs
+*.mp3
+audio_chapter/
+audio_chapter_full/
+audio_chapters/
