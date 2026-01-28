@@ -20,6 +20,10 @@ venv_stable/
 audio_chapter*/
 venv_stable/
 
+printf "\n# Local/dev junk\n.DS_Store\n.vscode/\nvenv/\nvenv_stable/\n# Data/audio outputs\n*.mp3\naudio_chapter/\naudio_chapter_full/\naudio_chapters/\n" >> .gitignore
+git add .gitignore
+git commit -m "Ignore local env and audio folders"
+
 
 
 *_TRANSCRIPT*.txttest_output.txt
