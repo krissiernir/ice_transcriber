@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# But allow these folders (so Git can see allowed files inside them)
+!*/
+
+# Allow gitignore itself
+!.gitignore
+
+# Allow Python source
+!*.py
+
+# (Optional) allow docs/config you may want
+!README.md
+!requirements.txt
+!pyproject.toml
